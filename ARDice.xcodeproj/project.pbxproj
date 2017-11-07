@@ -10,6 +10,7 @@
 		C732BA791FAF6A3C00843793 /* 2k_moon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C732BA781FAF6A3B00843793 /* 2k_moon.jpg */; };
 		C732BA7C1FAF6A7000843793 /* diceCollada.dae in Resources */ = {isa = PBXBuildFile; fileRef = C732BA7A1FAF6A6F00843793 /* diceCollada.dae */; };
 		C732BA7D1FAF6A7000843793 /* New_RedBase_Color.png in Resources */ = {isa = PBXBuildFile; fileRef = C732BA7B1FAF6A6F00843793 /* New_RedBase_Color.png */; };
+		C76B936D1FB21AD500E3FE7E /* grid.png in Resources */ = {isa = PBXBuildFile; fileRef = C76B936C1FB21AD500E3FE7E /* grid.png */; };
 		C77684C31F9CA96400EAE167 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77684C21F9CA96400EAE167 /* AppDelegate.swift */; };
 		C77684C51F9CA96400EAE167 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = C77684C41F9CA96400EAE167 /* art.scnassets */; };
 		C77684C71F9CA96400EAE167 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77684C61F9CA96400EAE167 /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 		C732BA781FAF6A3B00843793 /* 2k_moon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2k_moon.jpg; path = art.scnassets/2k_moon.jpg; sourceTree = "<group>"; };
 		C732BA7A1FAF6A6F00843793 /* diceCollada.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; name = diceCollada.dae; path = art.scnassets/diceCollada.dae; sourceTree = "<group>"; };
 		C732BA7B1FAF6A6F00843793 /* New_RedBase_Color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = New_RedBase_Color.png; path = art.scnassets/New_RedBase_Color.png; sourceTree = "<group>"; };
+		C76B936C1FB21AD500E3FE7E /* grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grid.png; path = art.scnassets/grid.png; sourceTree = "<group>"; };
 		C77684BF1F9CA96400EAE167 /* ARDice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARDice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C77684C21F9CA96400EAE167 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C77684C41F9CA96400EAE167 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				C732BA781FAF6A3B00843793 /* 2k_moon.jpg */,
 				C732BA7A1FAF6A6F00843793 /* diceCollada.dae */,
 				C732BA7B1FAF6A6F00843793 /* New_RedBase_Color.png */,
+				C76B936C1FB21AD500E3FE7E /* grid.png */,
 				C77684C41F9CA96400EAE167 /* art.scnassets */,
 				C77684C61F9CA96400EAE167 /* ViewController.swift */,
 				C77684C81F9CA96400EAE167 /* Main.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C732BA7D1FAF6A7000843793 /* New_RedBase_Color.png in Resources */,
+				C76B936D1FB21AD500E3FE7E /* grid.png in Resources */,
 				C77684C51F9CA96400EAE167 /* art.scnassets in Resources */,
 				C77684CF1F9CA96400EAE167 /* LaunchScreen.storyboard in Resources */,
 				C732BA7C1FAF6A7000843793 /* diceCollada.dae in Resources */,
