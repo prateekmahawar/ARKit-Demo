@@ -78,6 +78,20 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         super.didReceiveMemoryWarning()
         // Release any cached data, images, etc that aren't in use.
     }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        if let touch = touches.first {
+            let touchLocation = touch.location(in: sceneView)
+            
+            let result = sceneView.hitTest(touchLocation, types: .existingPlaneUsingExtent)
+            
+            if !result.isEmpty {
+                print("Touched the plane")
+            } else {
+                print("Print somewhere else")
+            }
+        }
+    }
     //MARK:- AR Delegate Method
     func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
         if anchor is ARPlaneAnchor {
@@ -100,6 +114,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             return
         }
     }
+    
 
     // MARK: - ARSCNViewDelegate
     
